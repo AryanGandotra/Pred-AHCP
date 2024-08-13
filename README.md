@@ -146,15 +146,15 @@ http://localhost:3000
 
 ### Home Page
 
-![Home Page]()
+![Home Page](./Images/Home%20Page.png)
 
 ### Results Page
 
-![Results Page]()
+![Results Page](./Images/Results%20Page.png)
 
 ### Contact Page
 
-![Contact Page]()
+![Contact Page](./Images/Contact%20Page.png)
 
 
 ## Manuscript link
