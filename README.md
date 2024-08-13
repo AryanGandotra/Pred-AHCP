@@ -64,7 +64,7 @@ _CSS_ - CSS Docs https://developer.mozilla.org/en-US/docs/Web/CSS
 1. Clone the repository
 
 ```
-git clone https://github.com/
+git clone https://github.com/PredAHCP/Pred-AHCP.git
 ```
 
 2. Install the requirements
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 3. Move to the Server Directory
 ```
-cd "directory path"
+cd /Web Server
 ```
 
 4. Start the server
@@ -93,7 +93,6 @@ flask run
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling language for web pages
 
 
-
 ## Functionalities
 
 - Dataset Generation
@@ -106,64 +105,22 @@ flask run
 
 ```
 .
-├── index.js
-├── Views
-│   ├── Auth
-│   ├── cart
-│   ├── checkout
-│   ├── fav
-│   ├── orderHistory
-│   ├── partials
-│   ├── products
-│   └── home.ejs
-├── Utils
-│   └── catchAsync.js
-├── controllers
-│   └── users.js
-├── models
-│   ├── cart.js
-│   ├── order.js
-│   ├── store.js
-│   └── user.js
-├── package.json
-├── package-lock.json
-├── public
-│   ├── css
-│   │   ├── base.css
-│   │   ├── cart.css
-│   │   ├── checkout.css
-│   │   ├── home.css
-│   │   ├── login.css
-│   │   ├── new.css
-│   │   ├── orderHistory.css
-│   │   ├── show.css
-│   │   ├── signUp.css
-│   │   └── stars.css
-│   ├── images
-│   │   ├── banner.png
-│   │   ├── login.jpg
-│   │   ├── logo.png
-│   │   ├── shopping-bag.png
-│   │   └── signup.png
-│   └── js
-│       ├── formValidation.js
-│       └── orderHistory.js
-├── middleware.js
+├── 1
+│   ├── Github_1.ipynb
+├── 2
+│   ├── Github_2.ipynb
+├── 3
+│   ├── Github_3.ipynb
+├── We Server
+│   └── static
+│   ├── templates
+│       ├── index.html
+│       ├── contact.html
+│       ├── contact.html
+│   ├── server.py
+|   |── RandomForest.pkl
 ├── README.md
-├── Demo
-│   ├── cart.js
-│   ├── order.js
-│   ├── store.js
-│   └── user.js
-├── routes
-│   ├── cart.js
-│   ├── checkout.js
-│   ├── fav.js
-│   ├── login.js
-│   ├── logout.js
-│   ├── orderHistory.js
-│   ├── products.js
-│   └── products.js
+├── requirements.txt
 
 ```
 
