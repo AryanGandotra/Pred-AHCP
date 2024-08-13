@@ -111,7 +111,7 @@ flask run
 │   ├── Github_2.ipynb
 ├── 3
 │   ├── Github_3.ipynb
-├── We Server
+├── Web Server
 │   └── static
 │   ├── templates
 │       ├── index.html
@@ -123,6 +123,16 @@ flask run
 ├── requirements.txt
 
 ```
+
+## File Descriptions
+
+1. Github_1.ipynb: This file contains the basic introduction of dataset development and the feature selection process that we have followed in our study. The feature selection process has been completed using threading in the windows desktop. This provided us with data for 10 runs which was then compiled into two files 9_dataset_subset_unique.csv and 10_dataset_subset_common.csv which have been used for further analysis.
+
+
+2. Github_2.ipynb: This file performs the feature importance analysis using the 10_dataset_subset_common.csv file which includes the graphs generated as well.
+
+3. Github_3.ipynb: This file performs the machine learning analysis and validation dataset analysis using the 9_dataset_subset_unique.csv file.
+
 
 ## Demo
 
