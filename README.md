@@ -96,6 +96,7 @@ flask run
 
 ## Functionalities
 
+- Dataset Generation
 - Feature extraction
 - Feature selection
 - Machine Learning model development
