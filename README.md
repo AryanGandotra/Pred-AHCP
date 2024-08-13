@@ -98,11 +98,10 @@ http://localhost:3000
 
 ## Functionalities
 
-- Dataset Generation
-- Feature extraction
+- Feature Development
 - Feature selection
-- Machine Learning model development
-- Web server development
+- Machine Learning
+- Web Server
 
 ## Folder Structure
 
