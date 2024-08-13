@@ -122,24 +122,24 @@ http://localhost:3000
 ├── Web Server
 │   └── static
 │   ├── templates
-│       ├── index.html
-│       ├── contact.html
-│       ├── contact.html
+│   |   ├── index.html
+│   |   ├── contact.html
+│   |   ├── contact.html
 │   ├── server.py
 |   |── RandomForest.pkl
+├── Images
 ├── README.md
 ├── requirements.txt
 
 ```
 
-## File Descriptions
+## Folder Descriptions
 
-1. Github_1.ipynb: This file contains the basic introduction of dataset development and the feature selection process that we have followed in our study. The feature selection process has been completed using threading in the windows desktop. This provided us with data for 10 runs which was then compiled into two files 9_dataset_subset_unique.csv and 10_dataset_subset_common.csv which have been used for further analysis.
+1. Feature Development: This contains the basic introduction of dataset development and the feature selection process that we have followed in our study. The feature selection process has been completed using threading in the windows desktop. This provided us with data for 10 runs which was then compiled into two files 9_dataset_subset_unique.csv and 10_dataset_subset_common.csv which have been used for further analysis.
 
+2. Feature Selection: This contains the feature importance analysis using the 10_dataset_subset_common.csv file which includes the graphs generated as well.
 
-2. Github_2.ipynb: This file performs the feature importance analysis using the 10_dataset_subset_common.csv file which includes the graphs generated as well.
-
-3. Github_3.ipynb: This file performs the machine learning analysis and validation dataset analysis using the 9_dataset_subset_unique.csv file.
+3. Machine Learning: This contains the machine learning analysis and validation dataset analysis using the 9_dataset_subset_unique.csv file.
 
 
 ## Demo
@@ -148,13 +148,13 @@ http://localhost:3000
 
 ![Home Page]()
 
-### Contact Page
-
-![Contact Page]()
-
 ### Results Page
 
 ![Results Page]()
+
+### Contact Page
+
+![Contact Page]()
 
 
 ## Manuscript link
