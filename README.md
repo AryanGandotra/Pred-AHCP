@@ -170,7 +170,7 @@ flask run
 
 ### Home Page
 
-![Home Page](https://github.com/AryanGandotra/ShopSphere/blob/main/Demo/Home%20Page-1.png)
+![Home Page]()
 
 
 ## Manuscript link
