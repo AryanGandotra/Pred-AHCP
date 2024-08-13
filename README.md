@@ -83,7 +83,10 @@ cd /Web Server
 flask run
 ```
 
-5. Open http://localhost:3000 in your browser
+5. Open the browser and go to the following link
+```
+http://localhost:3000
+```
 
 ## Built With
 
