@@ -83,7 +83,10 @@ cd /Web Server
 flask run
 ```
 
-5. Open http://localhost:3000 in your browser
+5. Open the browser and go to the following link
+```
+http://localhost:3000
+```
 
 ## Built With
 
@@ -140,6 +143,14 @@ flask run
 
 ![Home Page]()
 
+### Contact Page
+
+![Contact Page]()
+
+### Results Page
+
+![Results Page]()
+
 
 ## Manuscript link
 
@@ -159,6 +170,9 @@ https://www.biorxiv.org/content/10.1101/2024.05.05.592323v1
 
 - [Aryan Gandotra](https://github.com/AryanGandotra)
 - [Lakshit Wasan](https://github.com/lakshitwasan)
+
+
+## Citations
 
 ## Contribution
 
