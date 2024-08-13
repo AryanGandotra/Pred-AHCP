@@ -172,7 +172,11 @@ https://www.biorxiv.org/content/10.1101/2024.05.05.592323v1
 - [Lakshit Wasan](https://github.com/lakshitwasan)
 
 
-## Citations
+## Citation
+
+Pred-AHCP: Robust feature selection enabled Sequence-Specific Prediction of Anti-Hepatitis C Peptides via Machine Learning
+Akash Saraswat, Utsav Sharma, Aryan Gandotra, Lakshit Wasan, Sainithin Artham, Arijit Maitra, Bipin Singh
+bioRxiv 2024.05.05.592323; doi: https://doi.org/10.1101/2024.05.05.592323
 
 ## Contribution
 
