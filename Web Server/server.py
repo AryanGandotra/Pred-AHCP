@@ -576,10 +576,10 @@ def process():
 
         if probability[0] > probability[1]:
             all_probabilities.append(probability[0])
-            all_labels.append("Negative")
+            all_labels.append("Negative")  # TO BE CONFIRMED
         else:
             all_probabilities.append(probability[1])
-            all_labels.append("Positive")
+            all_labels.append("Positive")  # TO BE CONFIRMED
         all_labels.append(model.predict([i])[0])
 
     return render_template(
