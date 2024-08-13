@@ -573,10 +573,8 @@ def process():
     for i in data:
         result = model.predict_proba([i])
         probability = result[0]
-
         all_probabilities.append(probability[1])
-        all_labels.append("AHCP")
-
+        all_labels.append("AHCP") 
         all_labels.append(model.predict([i])[0])
 
     return render_template(

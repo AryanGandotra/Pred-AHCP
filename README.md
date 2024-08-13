@@ -108,12 +108,18 @@ http://localhost:3000
 
 ```
 .
-├── 1
-│   ├── Github_1.ipynb
-├── 2
-│   ├── Github_2.ipynb
-├── 3
-│   ├── Github_3.ipynb
+├── Feature Development
+│   ├── AAC.py
+│   ├── CKSAAP.py
+│   ├── COMPOSITION.py
+│   ├── TRANSITION.py
+│   ├── DISTRIBUTION.py
+│   ├── EAAC.py
+├── Feature Selection
+│   ├── DATASET DEVELOPMENT AND FEATURE SELECTION.ipynb
+│   ├── FEATURE IMPORTANCE ANALYSIS.ipynb
+├── Machine Learning
+│   ├── MACHINE LEARNING ANALYSIS.ipynb
 ├── Web Server
 │   └── static
 │   ├── templates
@@ -172,11 +178,14 @@ https://www.biorxiv.org/content/10.1101/2024.05.05.592323v1
 - [Lakshit Wasan](https://github.com/lakshitwasan)
 
 
-## Citation
+## If you use this work or dataset, please cite the following:
 
+```
 Pred-AHCP: Robust feature selection enabled Sequence-Specific Prediction of Anti-Hepatitis C Peptides via Machine Learning
 Akash Saraswat, Utsav Sharma, Aryan Gandotra, Lakshit Wasan, Sainithin Artham, Arijit Maitra, Bipin Singh
 bioRxiv 2024.05.05.592323; doi: https://doi.org/10.1101/2024.05.05.592323
+```
+
 
 ## Contribution
 
