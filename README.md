@@ -143,6 +143,14 @@ http://localhost:3000
 
 ![Home Page]()
 
+### Contact Page
+
+![Contact Page]()
+
+### Results Page
+
+![Results Page]()
+
 
 ## Manuscript link
 
