@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 app = Flask(__name__)
 
-model = pickle.load(open("Web Server/RandomForest.pkl", "rb"))
+model = pickle.load(open("RandomForest.pkl", "rb"))
 
 column_names = model.feature_names_in_
 
@@ -549,7 +549,7 @@ def process():
     data_rows = [row[:max_columns] for row in data_rows]
 
     timestamp = time.strftime("%d_%m_%Y_%H_%M_%S")
-    filename = f"Web Server/files/output_{timestamp}.csv"
+    filename = f"files/output_{timestamp}.csv"
 
     with open(filename, "a", newline="") as csvfile:
         writer = csv.writer(csvfile)
@@ -559,7 +559,7 @@ def process():
 
         writer.writerows(data_rows)
 
-    file = f"Web Server/files/output_{timestamp}.csv"
+    file = f"files/output_{timestamp}.csv"
 
     df = pd.read_csv(file)
     specific_columns = df[column_names]
@@ -572,8 +572,8 @@ def process():
 
     for i in data:
         result = model.predict_proba([i])
-        probability = round(result[0][1], 3)
-        all_probabilities.append(probability)
+        probability = round(result[0][1], 3)  # Rounding to 3 decimal places
+        all_probabilities.append(f"{probability:.3f}")  # Ensures 3 decimal places in string
         all_labels.append("AHCP")
         all_labels.append(model.predict([i])[0])
 
@@ -586,6 +586,7 @@ def process():
         length=len(all_sequences),
         labels=all_labels,
     )
+
 
 
 
