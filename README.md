@@ -126,6 +126,7 @@ http://localhost:3000
 │   ├── TRANSITION.py
 │   ├── DISTRIBUTION.py
 │   ├── EAAC.py
+│   ├── Dataset.csv
 ├── Feature Selection
 │   ├── DATASET DEVELOPMENT AND FEATURE SELECTION.ipynb
 │   ├── FEATURE IMPORTANCE ANALYSIS.ipynb
@@ -142,17 +143,16 @@ http://localhost:3000
 ├── Images
 ├── README.md
 ├── requirements.txt
-├── Dataset.csv
 
 ```
 
 ## Folder Descriptions
 
-1. Feature Development: This contains the basic introduction of dataset development and the feature selection process that we have followed in our study. The feature selection process has been completed using threading in the windows desktop. This provided us with data for 10 runs which was then compiled into two files 9_dataset_subset_unique.csv and 10_dataset_subset_common.csv which have been used for further analysis.
+1. Feature Development: This folder contains the code files to develop features used in the study. This includes Amino Acid Composition (AAC), Enhanced Amino Acid Composition (EAAC), Composition of K-spaced Amino Acids Pair (CKSAAP) & CTD Encoding (Composition, Transition and Distribution).
 
-2. Feature Selection: This contains the feature importance analysis using the 10_dataset_subset_common.csv file which includes the graphs generated as well.
+2. Feature Selection: This folder contains the code files for dataset development and the feature selection process that we have followed in our study. The feature selection process has been completed using threading in the windows desktop and the feature importance analysis.
 
-3. Machine Learning: This contains the machine learning analysis and validation dataset analysis using the 9_dataset_subset_unique.csv file.
+3. Machine Learning: This contains the pipeline for machine learning and validation dataset analysis.
 
 
 ## Demo
