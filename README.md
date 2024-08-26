@@ -2,7 +2,7 @@
 
 PredAHCP employs Random Forest (RF) model to predict anti-hepatitis C peptides (AHCPs) based on sequence features. The model is made available through Pred-AHCP web server: http://tinyurl.com/web-Pred-AHCP.
 
-The RF model harnesses the amino acid sequence of a peptide to predict its potential as an anti-HepC (AHC) agent. Specifically, features were computed based on sequence and physicochemical properties. Feature selection was performed utilizing a combined scheme of mutual information and variance inflation factor. This facilitated the removal of redundant and multicollinear features from the sequence data, enhancing the model’s generalizability in predicting AHCPs. The RF model has an accuracy of about 90%. This resource facilitates the prediction of AHCPs for designing peptide-based therapeutics while also proposing an exploration of similar strategies for designing peptide inhibitors effective against other viruses.
+The RF model harnesses the amino acid sequence of a peptide to predict its potential as an anti-HepC (AHC) agent. Specifically, features were computed based on sequence and physicochemical properties. Feature selection was performed utilizing a combined scheme of mutual information and variance inflation factor. This facilitated the removal of redundant and multicollinear features from the sequence data, enhancing the model’s generalizability in predicting AHCPs. The RF model has a test accuracy of 90%. This resource facilitates the prediction of AHCPs for designing peptide-based therapeutics while also proposing an exploration of similar strategies for designing peptide inhibitors effective against other viruses.
 
 ## Methodology
 
@@ -66,7 +66,10 @@ _CSS_ - CSS Docs https://developer.mozilla.org/en-US/docs/Web/CSS
 ```
 git clone https://github.com/PredAHCP/Pred-AHCP.git
 ```
-
+2. Navigate to the git directory
+```
+cd \Pred-AHCP
+```
 2. Install the requirements
 
 ```
@@ -75,7 +78,7 @@ pip install -r requirements.txt
 
 3. Move to the Server Directory
 ```
-cd /Web Server
+cd \Web Server
 ```
 
 4. Start the server
@@ -157,10 +160,6 @@ http://localhost:3000
 ![Contact Page](./Images/Contact%20Page.png)
 
 
-## Manuscript link
-
-https://www.biorxiv.org/content/10.1101/2024.05.05.592323v1
-
 ## Contact of all the authors
 
 - Akash Saraswat
@@ -170,11 +169,6 @@ https://www.biorxiv.org/content/10.1101/2024.05.05.592323v1
 - Sainithin Artham
 - Arijit Maitra
 - Bipin Singh
-
-## Code Maintainers
-
-- [Aryan Gandotra](https://github.com/AryanGandotra)
-- [Lakshit Wasan](https://github.com/lakshitwasan)
 
 
 ## If you use this work or dataset, please cite the following:

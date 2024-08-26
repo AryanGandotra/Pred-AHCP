@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" type="image/x-icon" href="../static/favicon.png">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>File Download</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    body {
+      position: relative;
+      min-height: 100vh;
+      background-color: #f1f1f1;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+      color: #333333;
+      margin-top: 50px;
+    }
+
+    .download-link {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #4caf50;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 30px;
+    }
+
+    .download-link:hover {
+      background-color: #45a049;
+    }
+
+    .download-icon {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+
+    #back_btn {
+      background-color: #919b91;
+      color: #fff;
+      min-width: 100px;
+      /* padding: 10px 20px; */
+      border: none;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    #back_btn:hover {
+      background-color: #7d867d;
+
+    }
+
+    #back_btn:hover a {
+      color: #fff;
+    }
+
+    #back_btn a {
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      padding: 10px 20px;
+    }
+
+
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    th {
+      border: 1px solid #000000;
+      text-align: left;
+      padding: 8px;
+    }
+
+    td {
+      border: 1px solid #000000;
+      text-align: left;
+      padding: 8px;
+    }
+
+    .table_container {
+      margin-top: 50px;
+      height: 500px;
+      overflow-y: scroll;
+    }
+
+    .scroll-message {
+      font-size: 14px;
+      color: #666666;
+      margin-top: 10px;
+    }
+
+    nav {
+      text-align: left;
+      font-size: 18px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- <nav>
+    <a href="/">Back</a>
+  </nav> -->
+  <h1>File Download Page</h1>
+  <img class="download-icon" src="https://cdn-icons-png.flaticon.com/512/189/189249.png" alt="Download Icon" />
+  <p>Click the button below to download your file:</p>
+  <form method="GET" action="/getcsv/{{filename}}" enctype="multipart/form-data">
+    <input type="submit" value="Download CSV File" />
+  </form>
+  <button id="back_btn"><a href="/">Back</a></button>
+  <br>
+  <div class="table_container">
+    <table>
+      <thead>
+        <tr>
+          <th>Sequence</th>
+          <th>Class</th>
+          <th>Probability</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for index in range(length) %}
+        <tr>
+          <td>{{ Sequence[index] }}</td>
+          <td>{{ labels[index] }}</td>
+          <td>{{ prob[index] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    &copy; AHCPRED. All rights reserved.
+  </footer>
+</body>
+
+</html>
