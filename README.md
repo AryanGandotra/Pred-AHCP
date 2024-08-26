@@ -193,9 +193,3 @@ Akash Saraswat, Utsav Sharma, Aryan Gandotra, Lakshit Wasan, Sainithin Artham, A
 bioRxiv 2024.05.05.592323; doi: https://doi.org/10.1101/2024.05.05.592323
 ```
 
-
-## Contribution
-
-1. Contributions are welcome! Please feel free to submit a Pull Request.
-2. Please create an issue for any new feature requests/bugs.
-3. Pull requests will be merged after being reviewed.
