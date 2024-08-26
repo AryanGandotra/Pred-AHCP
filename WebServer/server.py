@@ -572,9 +572,9 @@ def process():
 
     for i in data:
         result = model.predict_proba([i])
-        probability = result[0]
-        all_probabilities.append(probability[1])
-        all_labels.append("AHCP") 
+        probability = round(result[0][1], 3)
+        all_probabilities.append(probability)
+        all_labels.append("AHCP")
         all_labels.append(model.predict([i])[0])
 
     return render_template(
@@ -586,6 +586,7 @@ def process():
         length=len(all_sequences),
         labels=all_labels,
     )
+
 
 
 @app.route("/getcsv/Web Server/files/<filename>", methods=["GET"])
