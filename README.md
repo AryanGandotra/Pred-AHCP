@@ -54,8 +54,7 @@ The methodology used in this paper can be described using the following key step
 _Python_ - Download and install Python from https://www.python.org
 
 > [!NOTE]
-> In the event of any Python dependency errors, please downgrade Python to version 3.9.6 and restart the setup process.
-> https://www.python.org/downloads/release/python-396/
+> In the event of any Python dependency errors, please downgrade Python to version [3.9.6](https://www.python.org/downloads/release/python-396/) and restart the setup process.
 
 _Flask_ - Download and install Flask from https://flask.palletsprojects.com/en/3.0.x/
 
