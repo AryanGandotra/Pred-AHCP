@@ -53,6 +53,9 @@ The methodology used in this paper can be described using the following key step
 
 _Python_ - Download and install Python from https://www.python.org
 
+> [!NOTE]
+> In the event of any Python dependency errors, please downgrade Python to version 3.9.6 and restart the setup process.
+
 _Flask_ - Download and install Flask from https://flask.palletsprojects.com/en/3.0.x/
 
 _HTML_ - HTML Docs https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -169,14 +172,18 @@ http://localhost:3000
 
 ## Contact of all the authors
 
-- Akash Saraswat
-- Utsav Sharma
-- Aryan Gandotra
-- Lakshit Wasan
-- Sainithin Artham
-- Arijit Maitra
-- Bipin Singh
+- Akash Saraswat [https://orcid.org/0000-0001-7662-1477]
+- Utsav Sharma []
+- Aryan Gandotra [https://orcid.org/0009-0004-1701-4721]
+- Lakshit Wasan [https://orcid.org/0009-0002-5112-9720]
+- Sainithin Artham []
+- Arijit Maitra [https://orcid.org/0000-0003-4487-671X]
+- Bipin Singh [https://orcid.org/0000-0002-8104-0076]
 
+
+## Code Maintainers
+- [Aryan Gandotra](https://github.com/AryanGandotra)
+- [Lakshit Wasan](https://github.com/lakshitwasan)
 
 ## If you use this work or dataset, please cite the following:
 
