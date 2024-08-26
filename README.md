@@ -68,7 +68,7 @@ git clone https://github.com/PredAHCP/Pred-AHCP.git
 ```
 2. Navigate to the git directory
 ```
-cd \Pred-AHCP
+cd Pred-AHCP
 ```
 2. Install the requirements
 
@@ -78,12 +78,18 @@ pip install -r requirements.txt
 
 3. Move to the Server Directory
 ```
-cd \Web Server
+cd WebServer
+```
+
+4. Create a files folder
+
+```
+mkdir files
 ```
 
 4. Start the server
 ```
-flask run
+python server.py
 ```
 
 5. Open the browser and go to the following link

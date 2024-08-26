@@ -1,3 +1,5 @@
-Flask==2.3.3
-pandas==2.0.3
+flask==2.3.3
+waitress
+numpy==1.23.5 
+pandas==2.0.3 
 scikit-learn==1.3.0

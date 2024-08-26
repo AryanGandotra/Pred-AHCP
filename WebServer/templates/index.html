@@ -19,6 +19,7 @@
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       font-family: 'Roboto', sans-serif;
+      font-size: 18px;
     }
 
     h1 {
@@ -132,14 +133,14 @@
       justify-content: space-between;
     }
 
-    a {
+    .a-tag {
       color: #fff;
       text-decoration: none;
     }
 
-    a:hover {
+    .a-tag:hover {
       color: #ccc;
-    }
+    } 
 
     span {
       display: flex;
@@ -159,7 +160,7 @@
       display: block;
       margin: 0 auto;
       max-width: 70vw;
-      height: 350px;
+      height: 300px;
       overflow: hidden;
       border-radius: 5px;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -189,7 +190,7 @@
   <nav>
     <ul>
       <span>
-        <li style="font-size: medium;"><a href="/">Home</a></li>
+        <li style="font-size: medium;"><a class="a-tag" href="/">Home</a></li>
         <!-- <li style="font-size: medium;"><a href="/about">About Us</a></li> -->
       </span>
 
@@ -200,7 +201,7 @@
       <span>
         <!-- <li><a href="/features">Extract Features</a></li> -->
         <!-- <li><a href="/features"></a></li> -->
-        <li style="font-size: medium;"><a href="/contact">Contact Us</a></li>
+        <li style="font-size: medium;"><a class="a-tag" href="/contact">Contact Us</a></li>
       </span>
 
     </ul>
@@ -223,9 +224,12 @@
     <img src="static/Banner.png" alt="Banner Image" />
   </div>
 
-  PredAHCP employs Random Forest (RF) model with 90% accuracy to predict anti-hepatitis C peptides (AHCPs) based on sequence features. This resource facilitates the prediction of AHCPs for designing peptide-based therapeutics against Hepatitis C virus. The following study can be accessed via https://doi.org/10.1101/2024.05.05.592323. The data and code files can be accessed via  Github (link).
+  
 
   <form method="POST" action="/process" enctype="multipart/form-data">
+    PredAHCP employs Random Forest (RF) model with 90% accuracy to predict anti-hepatitis C peptides (AHCPs) based on sequence features. This resource facilitates the prediction of AHCPs for designing peptide-based therapeutics against Hepatitis C virus. The following study can be accessed via <a href="https://doi.org/10.1101/2024.05.05.592323" style="color: blue">https://doi.org/10.1101/2024.05.05.592323</a>. The data and code files can be accessed via  Github <a href="https://github.com/PredAHCP">https://github.com/PredAHCP</a>.
+    <br>
+    <br>
     <label for="sequence">Enter Sequence in FASTA Format:</label>
     <br />
     <br />
@@ -240,7 +244,8 @@
 
     <p style="color: black">
       <br>
-      Example 1:
+      Examples:
+      <br>
       <br>
       >Sample_peptide_1
       <br>
@@ -249,9 +254,6 @@
     <br>
 
     <p style="color: black">
-      <br>
-      Example 2:
-      <br>
       >Sample_peptide_2
       <br>
       SWLRDIWDWVCEVLSDFK
