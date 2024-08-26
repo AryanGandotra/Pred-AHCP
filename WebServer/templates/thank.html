@@ -162,16 +162,16 @@
       <thead>
         <tr>
           <th>Sequence</th>
+          <th>Probability of AHCP</th>
           <th>Class</th>
-          <th>Probability</th>
         </tr>
       </thead>
       <tbody>
         {% for index in range(length) %}
         <tr>
           <td>{{ Sequence[index] }}</td>
-          <td>{{ labels[index] }}</td>
           <td>{{ prob[index] }}</td>
+          <td>{{ labels[index] }}</td>
         </tr>
         {% endfor %}
       </tbody>
