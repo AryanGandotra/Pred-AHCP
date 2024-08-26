@@ -172,13 +172,13 @@ http://localhost:3000
 
 ## Contact of all the authors
 
-- Akash Saraswat [https://orcid.org/0000-0001-7662-1477]
-- Utsav Sharma []
-- Aryan Gandotra [https://orcid.org/0009-0004-1701-4721]
-- Lakshit Wasan [https://orcid.org/0009-0002-5112-9720]
-- Sainithin Artham []
-- Arijit Maitra [https://orcid.org/0000-0003-4487-671X]
-- Bipin Singh [https://orcid.org/0000-0002-8104-0076]
+- [Akash Saraswat] (https://orcid.org/0000-0001-7662-1477)
+- [Utsav Sharma] ()
+- [Aryan Gandotra] (https://orcid.org/0009-0004-1701-4721)
+- [Lakshit Wasan] (https://orcid.org/0009-0002-5112-9720)
+- [Sainithin Artham] ()
+- [Arijit Maitra] (https://orcid.org/0000-0003-4487-671X)
+- [Bipin Singh] (https://orcid.org/0000-0002-8104-0076)
 
 
 ## Code Maintainers
