@@ -572,10 +572,13 @@ def process():
 
     for i in data:
         result = model.predict_proba([i])
-        probability = round(result[0][1], 3)  # Rounding to 3 decimal places
-        all_probabilities.append(f"{probability:.3f}")  # Ensures 3 decimal places in string
-        all_labels.append("AHCP")
-        all_labels.append(model.predict([i])[0])
+        probability = round(result[0][1], 3)
+        all_probabilities.append(f"{probability:.3f}")
+        
+        if probability >= 0.5:
+            all_labels.append("AHCP")
+        else:
+            all_labels.append("NON-AHCP")
 
     return render_template(
         "thank.html",
@@ -586,6 +589,7 @@ def process():
         length=len(all_sequences),
         labels=all_labels,
     )
+
 
 
 
