@@ -171,7 +171,7 @@ http://localhost:3000
 ![Contact Page](./Images/Contact%20Page.png)
 
 
-## Contact of all the authors
+## Authors
 
 - [Akash Saraswat](https://orcid.org/0000-0001-7662-1477)
 - [Utsav Sharma]()
