@@ -1,0 +1,37 @@
+##########################################
+
+# code ownership
+
+##########################################
+
+# default ownership: default owners for everything in the repo (Unless a later match takes precedence)
+
+# (Order is important, the last matching pattern takes the most precedence)
+
+# All files in the repo will have the review request sent to AryanGandotra and lakshitwasan for approval.
+
+- @AryanGandotra @lakshitwasan
+
+# specific rule for .js files where AryanGandotra and lakshitwasan are required to review
+
+\*.js @AryanGandotra @lakshitwasan
+
+# review request for .yml files will go to AryanGandotra and lakshitwasan
+
+app/config/\*.yml @AryanGandotra @lakshitwasan
+
+# reviews for changes to the secret encrypted token will be handled by AryanGandotra and lakshitwasan
+
+app/config/secret-token.txt @AryanGandotra @lakshitwasan
+
+# alternatively, emails for secret tokens
+
+app/config/another-secret-token.txt @AryanGandotra @lakshitwasan
+
+# for any change inside sensitive module, AryanGandotra and lakshitwasan will review
+
+/apps/sensetive-module/secured-component/ @AryanGandotra @lakshitwasan
+
+# Tagging as a research project, any changes will need approval from AryanGandotra and lakshitwasan
+
+research-project/\* @AryanGandotra @lakshitwasan
