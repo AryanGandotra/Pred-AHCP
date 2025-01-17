@@ -14,7 +14,7 @@
 
 # specific rule for .js files where AryanGandotra and lakshitwasan are required to review
 
-\*.js @AryanGandotra @lakshitwasan
+*.js @AryanGandotra @lakshitwasan
 
 # review request for .yml files will go to AryanGandotra and lakshitwasan
 
