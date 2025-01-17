@@ -190,8 +190,8 @@ http://localhost:3000
 ## If you use this work or dataset, please cite the following:
 
 ```
-Pred-AHCP: Robust feature selection enabled Sequence-Specific Prediction of Anti-Hepatitis C Peptides via Machine Learning
-Akash Saraswat, Utsav Sharma, Aryan Gandotra, Lakshit Wasan, Sainithin Artham, Arijit Maitra, Bipin Singh
-bioRxiv 2024.05.05.592323; doi: https://doi.org/10.1101/2024.05.05.592323
+Akash Saraswat, Utsav Sharma, Aryan Gandotra, Lakshit Wasan, Sainithin Artham, Arijit Maitra, and Bipin Singh, 
+Pred-AHCP: Robust Feature Selection-Enabled Sequence-Specific Prediction of Anti-Hepatitis C Peptides via Machine Learning, Journal of Chemical Information and Modeling, 2024
+https://doi.org/10.1021/acs.jcim.4c00900
 ```
 
