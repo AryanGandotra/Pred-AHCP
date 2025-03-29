@@ -1,6 +1,6 @@
 # PRED-AHCP
 
-PRED-AHCP employs Random Forest (RF) model to predict anti-hepatitis C peptides (AHCPs) based on sequence features. The model is made available through Pred-AHCP web server: [http://tinyurl.com/web-Pred-AHCP](https://tinyurl.com/Pred-AHCP-WEB).
+PRED-AHCP employs Random Forest (RF) model to predict anti-hepatitis C peptides (AHCPs) based on sequence features. The model is made available through Pred-AHCP web server: [https://tinyurl.com/Pred-AHCP-WEB](https://tinyurl.com/Pred-AHCP-WEB).
 
 The RF model harnesses the amino acid sequence of a peptide to predict its potential as an anti-HepC (AHC) agent. Specifically, features were computed based on sequence and physicochemical properties. Feature selection was performed utilizing a combined scheme of mutual information and variance inflation factor. This facilitated the removal of redundant and multicollinear features from the sequence data, enhancing the model’s generalizability in predicting AHCPs. The RF model has a test accuracy of 92%. This resource facilitates the prediction of AHCPs for designing peptide-based therapeutics while also proposing an exploration of similar strategies for designing peptide inhibitors effective against other viruses.
 
